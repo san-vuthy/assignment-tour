@@ -164,7 +164,7 @@ h6 {
 
 .footer {
     background-color: #2f3542;
-    padding: 80px;
+    padding: 40px;
 }
 
 .aboutBack {
@@ -239,6 +239,135 @@ h6 {
 
 .singleContainer {
     max-width: 60%;
+}
+
+.loadMore {
+    padding: 8px 40px;
+    margin-top: 25px;
+    border: none;
+}
+
+.pressTitle {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.section-image.pressImage {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    height: 18vh;
+    background-size: 100%;
+    border-radius: 5px;
+    transition: 0.3s ease-out;
+}
+
+#wrap {
+
+    width: 960px;
+    margin: 0 auto;
+}
+
+#content {
+    background: #fff;
+    padding: 10px 15px;
+
+}
+
+#header {
+    margin-bottom: 20px;
+}
+
+#footer {
+    text-align: center;
+}
+
+.scrolltop {
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+
+.scroll {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #2ed573;
+    padding: 12px 20px;
+    text-align: center;
+    margin: 0 0 0 0;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    color: #fff;
+}
+
+.scroll:hover {
+    background: rgba(178, 178, 178, 1.0);
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.scroll:hover .fa {
+    padding-top: -10px;
+}
+
+.fa-facebook-f {
+    background-color: #b9b9b9;
+    padding: 20px 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.fa-facebook-f:hover {
+    background-color: #3b5999;
+}
+
+.socailMedia {
+    background-color: #b9b9b9;
+    padding: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.fa-twitter:hover {
+    background-color: #55acee;
+}
+
+.fa-linkedin-in:hover {
+    background-color: #0077B5;
+}
+
+.fa-youtube:hover {
+    background-color: #cd201f;
+}
+
+.footer h5 {
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.scroll .fa {
+    font-size: 30px;
+    margin-top: -5px;
+    margin-left: 1px;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 
 
